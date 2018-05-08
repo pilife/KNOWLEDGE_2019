@@ -1,5 +1,7 @@
 # learning-note
-各类知识的学习笔记。其中*号代表正在做或者等待修改。
+各类知识的学习笔记。
+
+**号代表正在做或者等待修改。*
 
 ## System
 
@@ -13,7 +15,7 @@
 
 #### SOLID
 
-#### *GOF（[学习总结](doc/design-pattern-gof)）
+#### *GOF（[学习总结](doc/design-pattern-gof.md)）
 
 ---
 
