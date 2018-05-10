@@ -1,5 +1,7 @@
 # Hadoop Learning RoadMap
 
+## PLAN
+
 关于Hadoop的学习，本人计划分为***三个阶段***：
 
 - Step 1: 基本使用和基本原理
@@ -34,7 +36,11 @@
 
 ## 基本使用和基本原理
 
+### Hdfs
 
+### Map Reduce
+
+### Yarn
 
 Reference: [Hadoop2原理介绍](https://blog.csdn.net/rxt2012kc/article/details/72644873)
 
