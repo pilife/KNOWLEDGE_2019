@@ -64,9 +64,22 @@ TLS 1.0通常被标示为SSL 3.1，TLS 1.1为SSL 3.2，TLS 1.2为SSL 3.3。
 
 
 
-### 申请证书到配置Nginx//todo
+### 申请证书到配置Nginx
+把签发的证书文件(.crt/.pem)和对应的密钥.key文件配置到需要的server下即可
+```nginx
+    listen       443 ssl;
+    server_name  blog-zhangyi.dolores.me;
+    ssl                  on;
+    ssl_certificate     /home/zhangyi/https_conf/1_blog-zhangyi.dolores.me_bundle.crt;#配置证书位置
+    ssl_certificate_key  /home/zhangyi/https_conf/2_blog-zhangyi.dolores.me.key;#配置秘钥位置
+    #ssl_client_certificate ca.crt;#双向认证
+    #ssl_verify_client on; #双向认证
 
-
+    ssl_session_timeout  5m;
+    ssl_protocols  SSLv2 SSLv3 TLSv1;
+    ssl_ciphers  ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP;
+    ssl_prefer_server_ciphers   on;
+```
 
 Reference:
 [TSL1.2 RFC文档](https://tools.ietf.org/html/rfc5246)

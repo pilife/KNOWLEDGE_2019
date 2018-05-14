@@ -7,6 +7,8 @@
 
 #### *Hadoop ([学习笔记](doc/hadoop-learning-roadmap.md))
 
+#### ZooKeeper([学习笔记](doc/zookeeper.md))
+
 #### Spark
 
 
