@@ -29,6 +29,8 @@
 
 #### *Enum（[学习笔记](doc/java-enum.md)）
 
+####JNI([学习笔记](doc/java-jni.md))
+
 
 
 ---
