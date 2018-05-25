@@ -29,7 +29,7 @@
 
 #### *Enum（[学习笔记](doc/java-enum.md)）
 
-####JNI([学习笔记](doc/java-jni.md))
+#### JNI([学习笔记](doc/java-jni.md))
 
 
 
@@ -37,7 +37,7 @@
 
 ## TOOLS
 
-#### Protocol Buffer
+#### Protocol Buffers（[学习笔记](doc/tool-protocol-buffer.md)）
 
 
 
