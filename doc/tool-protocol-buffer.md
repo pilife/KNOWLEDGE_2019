@@ -283,3 +283,8 @@ class ListPeople {
 
 本质上就是提供了一个中间层，完成数据的定义和数据在具体代码中实现（提供的API：getset，序列化，解码编码，builder-merge等）的解耦。
 
+
+
+Reference: 
+
+[protocol buffers java tutorial](https://developers.google.com/protocol-buffers/docs/javatutorial)
