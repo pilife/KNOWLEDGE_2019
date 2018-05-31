@@ -170,6 +170,8 @@ FsImage和EditLog是HDFS的中心数据结构。这些文件的损坏可能会�
 - DFSAdmin
 - Browser Interface
 
+Reference: [HdfsDesign](http://hadoop.apache.org/docs/r2.8.4/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)
+
 ### Map Reduce
 
 ### Yarn

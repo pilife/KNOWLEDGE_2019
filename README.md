@@ -27,9 +27,13 @@
 
 ## JAVA 
 
-#### *Enum（[学习笔记](doc/java-enum.md)）
+#### *Enum([学习笔记](doc/java-enum.md))
 
 #### JNI([学习笔记](doc/java-jni.md))
+
+#### Dynamic Proxy([学习笔记](doc/java-daynamic-proxy.md))
+
+#### Annotation([学习笔记](doc/java-annotation.md))
 
 
 
