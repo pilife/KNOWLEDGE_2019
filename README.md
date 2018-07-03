@@ -11,6 +11,8 @@
 
 #### Spark
 
+#### [HBase](./doc/hbase.md)
+
 
 
 ---
@@ -34,6 +36,8 @@
 #### Dynamic Proxy([学习笔记](doc/java-daynamic-proxy.md))
 
 #### Annotation([学习笔记](doc/java-annotation.md))
+
+#### [JIT](./doc/java-jit.md)
 
 
 

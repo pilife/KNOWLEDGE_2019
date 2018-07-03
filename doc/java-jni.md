@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: ../image/java-jni
+---
+
 # JNI初探
 
 有时，有必要使用本机代码（C / C ++）来克服Java中的内存管理和性能限制。 Java通过Java本地接口（JNI）支持本地代码。
