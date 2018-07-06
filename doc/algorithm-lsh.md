@@ -3,7 +3,7 @@
 局部敏感哈希算法(Locality Sensitive Hashing)
 
 ## 作用
-LSH最根本的作用，就是能高效处理海量高维数据的最近邻问题
+LSH最根本的作用，就是能高效处理海量高维数据的最近邻问题（降维）
 
 
 
@@ -47,3 +47,8 @@ $$
 
 
 
+Reference:
+
+[Min-Hashing](https://www.cnblogs.com/maybe2030/p/4953039.html)
+
+[Definition](https://blog.csdn.net/guoziqing506/article/details/53019049)
