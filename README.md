@@ -5,13 +5,13 @@
 
 ## System
 
-#### *Hadoop ([学习笔记](doc/hadoop-learning-roadmap.md))
+*Hadoop [学习笔记](doc/hadoop-learning-roadmap.md)
 
-#### ZooKeeper([学习笔记](doc/zookeeper.md))
+ZooKeeper [学习笔记](doc/zookeeper.md)
 
-#### Spark
+Spark
 
-#### [HBase](./doc/hbase.md)
+HBase [学习笔记](./doc/hbase.md)
 
 
 
@@ -19,9 +19,9 @@
 
 ## Design Principles && Design Patterns
 
-#### SOLID
+SOLID
 
-#### *GOF（[学习总结](doc/design-pattern-gof.md)）
+*GOF [学习总结](doc/design-pattern-gof.md)
 
 
 
@@ -29,15 +29,15 @@
 
 ## JAVA 
 
-#### *Enum([学习笔记](doc/java-enum.md))
+*Enum [学习笔记](doc/java-enum.md)
 
-#### JNI([学习笔记](doc/java-jni.md))
+JNI [学习笔记](doc/java-jni.md)
 
-#### Dynamic Proxy([学习笔记](doc/java-daynamic-proxy.md))
+Dynamic Proxy [学习笔记](doc/java-daynamic-proxy.md)
 
-#### Annotation([学习笔记](doc/java-annotation.md))
+Annotation [学习笔记](doc/java-annotation.md)
 
-#### [JIT](./doc/java-jit.md)
+JIT [学习笔记](./doc/java-jit.md)
 
 
 
@@ -45,7 +45,7 @@
 
 ## TOOLS
 
-#### Protocol Buffers（[学习笔记](doc/tool-protocol-buffer.md)）
+Protocol Buffers [学习笔记](doc/tool-protocol-buffer.md)
 
 
 
@@ -53,7 +53,7 @@
 
 ## Introduction to Models of Computation
 
-#### 𝜆 Calculus（[学习笔记](doc/lambda-calculus.md)）
+𝜆 Calculus [学习笔记](doc/lambda-calculus.md)
 
 
 
@@ -61,7 +61,7 @@
 
 ## Protocol
 
-#### [*Https](doc/https.md)
+*Https [学习笔记](doc/https.md)
 
 ---
 
@@ -69,4 +69,4 @@
 
 ## Alogrithm
 
-LSH（学习笔记）
+LSH [学习笔记](./doc/algorithm-lsh.md)
