@@ -3,6 +3,8 @@
 
 **号代表正在做或者等待修改。*
 
+Advice: clone到本地typero打开观看效果较好
+
 ## System
 
 *Hadoop [学习笔记](doc/hadoop-learning-roadmap.md)
@@ -70,3 +72,5 @@ Protocol Buffers [学习笔记](doc/tool-protocol-buffer.md)
 ## Alogrithm
 
 LSH [学习笔记](./doc/algorithm-lsh.md)
+
+Consistent Hashing [学习笔记](./doc/algorithm-ch.md)
