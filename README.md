@@ -1,9 +1,10 @@
 # learning-note
 此repo为各类知识的学习笔记。
 
-**号代表正在做或者等待修改。*
+***Advice:***
 
-Advice: clone到本地typero打开观看效果较好
+* clone到本地typero打开观看效果较好
+* *号代表正在做或者等待修改。
 
 ## System
 

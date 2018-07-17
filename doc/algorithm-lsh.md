@@ -94,4 +94,4 @@ Reference:
 
 [Min-Hashing](https://www.cnblogs.com/maybe2030/p/4953039.html)
 
-[Definition](https://blog.csdn.net/guoziqing506/article/details/53019049)
+[LSH(Locality Sensitive Hashing)原理与实现](https://blog.csdn.net/guoziqing506/article/details/53019049)
