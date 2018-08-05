@@ -16,7 +16,7 @@ Spark
 
 HBase [学习笔记](./doc/hbase.md)
 
-
+ 
 
 ---
 
@@ -41,6 +41,8 @@ Dynamic Proxy [学习笔记](doc/java-daynamic-proxy.md)
 Annotation [学习笔记](doc/java-annotation.md)
 
 JIT [学习笔记](./doc/java-jit.md)
+
+HashMap原理 [学习笔记](doc/java-hashmap.md)
 
 
 
