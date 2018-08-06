@@ -191,7 +191,7 @@ HashMap，最重要的两个操作就是，写入和读取。下面我们来看�
    - 如果碰撞了，以链表的形式存在buckets后；
    - 如果碰撞导致链表过长(大于等于TREEIFY_THRESHOLD)，就把链表转换成红黑树；
    - 如果节点已经存在就替换old value(保证key的唯一性)
-2. 如果bucket满了(超过load factor*current capacity)，就要resize。
+2. 如果bucket满了(键值对的数量超过load factor*current capacity, 即碰撞概率太大了)，就要resize/rehashed。
 
 
 
