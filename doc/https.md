@@ -81,7 +81,12 @@ TLS 1.0通常被标示为SSL 3.1，TLS 1.1为SSL 3.2，TLS 1.2为SSL 3.3。
     ssl_prefer_server_ciphers   on;
 ```
 
-Reference:
+
+
+
+
+### Reference:
+
 [TSL1.2 RFC文档](https://tools.ietf.org/html/rfc5246)
 [Google Sites SSL/TLS](https://sites.google.com/site/tlsssloverview/ssl-tls-protocol-layers)
 [阮一峰](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html?20180510201551#comment-last)

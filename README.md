@@ -77,3 +77,9 @@ Protocol Buffers [学习笔记](doc/tool-protocol-buffer.md)
 LSH [学习笔记](./doc/algorithm-lsh.md)
 
 Consistent Hashing [学习笔记](./doc/algorithm-ch.md)
+
+
+
+## Linux
+
+linux下的host相关（hostname/dns host） [学习笔记](./doc/linux-hostname.md)

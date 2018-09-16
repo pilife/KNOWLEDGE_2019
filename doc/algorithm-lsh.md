@@ -86,7 +86,34 @@ $$
 
 我愿意把这样的方法称为<u>AND then OR</u>，它是先要求每个band的所有对应元素必须都相同，再要求多个band中至少有一个相同。符合这两条，才能发生hash碰撞。
 
-概率$1-(1-s^r)^b$就是最终两个文档被映射到同一个hash bucket中的概率。我们发现，这样一来，<u>实际上可以通过控制参数$r,b$的值来控制两个文档被映射到同一个哈希桶的概率。而且效果非常好。</u>
+概率$1-(1-s^r)^b$就是最终两个文档被映射到同一个hash bucket中的概率。我们发现，这样一来，<u>实际上可以通过控制参数$r,b$的值来控制两个文档被映射到同一个哈希桶的概率。而且效果非常好。(即控制第一幅图的弧度)</u>
+
+
+
+概念抽象：
+
+- 这里在Jaccard距离的情况下，原本最初的LS Familes是Min-Hashing（即，在不同随机排列下，第一个列值为1的行号即为Hash值）
+
+- 但是这样的LS-Families有缺陷：这样的(d1,d2,p1,p2)-sensitive的函数簇，如图所示：
+
+  ![屏幕快照 2018-08-17 下午2.09.00](../image/algo-lsh/屏幕快照 2018-08-17 下午2.09.00-4486161.png)
+
+  无法保证在d1和d2之间的误报部分。即把距离相对大的时候，应该尽量减少hash相同的概率，而不是维持线性。
+
+- 于是采用如下两个方法**<u>组合Hash函数</u>**来改变线性的距离概率关系，成为非线性的，即如第一幅图“S-curve”曲线。
+
+  - AND：For $h = [h_1,...,h_r]$ in H’, $h(x)=h(y) $ if and only if $h_i(x)=h_i(y) $ for **all** i
+
+    减少距离大的概率
+
+
+  - OR：For $h = [h_1,...,h_b]$ in H’, $h(x)=h(y) $ if and only if $h_i(x)=h_i(y) $ for **some** i
+
+    增加距离小的概率
+
+
+
+
 
 
 
@@ -95,3 +122,5 @@ Reference:
 [Min-Hashing](https://www.cnblogs.com/maybe2030/p/4953039.html)
 
 [LSH(Locality Sensitive Hashing)原理与实现](https://blog.csdn.net/guoziqing506/article/details/53019049)
+
+[Stanford Similarity Course](http://101.110.118.66/infolab.stanford.edu/~ullman/mining/2009/similarity3.pdf)
