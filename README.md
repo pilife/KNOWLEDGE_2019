@@ -8,27 +8,27 @@
 
 ## System
 
-*Hadoop [学习笔记](doc/hadoop-learning-roadmap.md)
+*Hadoop [学习笔记](doc/system-hadoop-learning-roadmap.md)
 
-ZooKeeper [学习笔记](doc/zookeeper.md)
+ZooKeeper [学习笔记](doc/system-zookeeper.md)
 
-Spark
-
-HBase [学习笔记](./doc/hbase.md)
+*HBase [学习笔记](./doc/system-hbase.md)
 
 区块链 [学习笔记](./doc/blockchain.md)
 
- 
+*Docker [学习笔记](./doc/system-docker.md)
+
+*Kafka [学习笔记](./doc/system-kafka.md)
+
+Spark
 
 ---
 
-## Design Principles && Design Patterns
+## Basic literacy of programmers
 
 SOLID
 
 *GOF [学习总结](doc/design-pattern-gof.md)
-
-
 
 ---
 
@@ -40,29 +40,17 @@ JNI [学习笔记](doc/java-jni.md)
 
 Dynamic Proxy [学习笔记](doc/java-daynamic-proxy.md)
 
-Annotation [学习笔记](doc/java-annotation.md)
+*Annotation [学习笔记](doc/java-annotation.md)
 
 JIT [学习笔记](./doc/java-jit.md)
 
 HashMap原理 [学习笔记](doc/java-hashmap.md)
-
-
 
 ---
 
 ## TOOLS
 
 Protocol Buffers [学习笔记](doc/tool-protocol-buffer.md)
-
-
-
----
-
-## Introduction to Models of Computation
-
-𝜆 Calculus [学习笔记](doc/lambda-calculus.md)
-
-
 
 ---
 
@@ -72,16 +60,24 @@ Protocol Buffers [学习笔记](doc/tool-protocol-buffer.md)
 
 ---
 
-
-
 ## Alogrithm
 
 LSH [学习笔记](./doc/algorithm-lsh.md)
 
 Consistent Hashing [学习笔记](./doc/algorithm-ch.md)
 
+---
 
 
 ## Linux
 
 linux下的host相关（hostname/dns host） [学习笔记](./doc/linux-hostname.md)
+
+---
+
+
+## Introduction to Models of Computation
+
+*𝜆 Calculus [学习笔记](doc/lambda-calculus.md)
+
+---
